@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edo Lab Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">Loading…</div>
+
+  <!-- Load dev config BEFORE edo.js. This file is gitignored.
+       The onerror suppresses the 404 when the file doesn't exist (production/iframe). -->
+  <script src="edo-dev-config.js" onerror="void 0"></script>
+  <script src="edo.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

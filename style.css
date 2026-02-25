@@ -1,0 +1,27 @@
+/* ─── Edo Lab Project — base styles ──────────────────────────────────────────
+   Edo brand tokens:
+     Primary (dark bg):  #282765
+     Accent green:       #3EC87A
+     Body text:          #15181e
+     Mid text:           #4A5468
+     Light text:         #8A96A3
+     Page bg:            #F7F8FA
+     Border:             #E2E8F0
+────────────────────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #15181e;
+  background: #F7F8FA;
+}
+
+#app {
+  padding: 40px 32px;
+  max-width: 960px;
+  margin: 0 auto;
+}

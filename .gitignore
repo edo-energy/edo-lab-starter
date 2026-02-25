@@ -1,0 +1,12 @@
+# Dev token config — NEVER commit this file
+edo-dev-config.js
+
+# Cached OAuth token from dev-proxy.js — NEVER commit
+.token-cache.json
+
+# Local env overrides — NEVER commit (may contain API URLs or secrets)
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
