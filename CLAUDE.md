@@ -292,6 +292,7 @@ In production, `edo.js` receives auth via postMessage from the parent Lab app �
 
 ## What NOT to Do
 
+- **No nav, header, or banner** — this project runs inside an `<iframe>` in Edo Lab, which already has its own navigation. Adding a header or hero band creates a double-nav and wastes vertical space. Start your layout directly with your content.
 - **No npm / no build step** — keep it plain HTML + vanilla JS. No React, no bundlers.
 - **No hardcoded tokens** — never commit `edo-dev-config.js` or `.token-cache.json`
 - **No server-side logic** — this is a static site; all logic runs in the browser
